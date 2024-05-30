@@ -19,9 +19,9 @@ laneRGB.py  ---> script processes video footage to detect and visualize lanes on
 ------- Advanced Lane Detection Systems -----------------------
 
 
-main.py 	----> script performs lane detection on an input image. It loads an image, identifies lane markings using computer vision techniques, and 		      then applies various transformation.
-edge_detection.py --> script contains functions for image processing tasks such asbinary thresholding, Gaussian blurring, Sobel edge detection, and applying 	              thresholds to image channels. These functions are designed to preprocess images before further analysis, such as lane detection.
-lane_detection.py --> This script implements a class called Lane for performing lane detection on images. It utilizes several computer vision techniques 		      such as adaptive thresholding, perspective transformation, the sliding window method for lane line detection, and curvature                 		      calculation.
+main.py ----> script performs lane detection on an input image. It loads an image, identifies lane markings using computer vision techniques, and then applies various transformation.
+edge_detection.py --> script contains functions for image processing tasks such asbinary thresholding, Gaussian blurring, Sobel edge detection, and applying thresholds to imagechannels. These functions are designed to preprocess images before further analysis, such as lane detection.
+lane_detection.py --> This script implements a class called Lane for performing lane detection on images. It utilizes several computer vision techniquessuch as adaptive thresholding, perspective transformation, the sliding window method for lane line detection, and curvature calculation.
 
 
 ------- Lane Detection using CNN - TuSimple Dataset -------------
